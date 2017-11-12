@@ -18,12 +18,22 @@ function fuzzyMatch(drivers,letters) {
 
 function matchName (collection, searcher) {
   const newCollection = [];
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 1ef1abd1968336af87b284fb7235de485ef03ba3
   for (const user of collection) {
     if (user.name == searcher) {
       newCollection.push(user);
     }
   }
+<<<<<<< HEAD
 
   return newCollection;
 }
+=======
+ 
+  return newCollection;
+}
+>>>>>>> 1ef1abd1968336af87b284fb7235de485ef03ba3
