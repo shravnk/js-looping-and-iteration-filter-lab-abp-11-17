@@ -18,7 +18,7 @@ function fuzzyMatch(drivers,letters) {
 
 function matchName (collection, searcher) {
   const newCollection = [];
- 
+
 
   for (const user of collection) {
     if (user.name == searcher) {
@@ -30,7 +30,6 @@ function matchName (collection, searcher) {
   return newCollection;
 }
 
- 
+
   return newCollection;
 }
-
